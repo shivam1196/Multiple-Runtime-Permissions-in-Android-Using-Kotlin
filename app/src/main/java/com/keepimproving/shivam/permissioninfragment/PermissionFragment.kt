@@ -43,7 +43,6 @@ class PermissionFragment:Fragment(){
             Toast.makeText(context,"Permission is required",Toast.LENGTH_SHORT).show()
         }
         else{
-
             Log.v("Permissions","Request")
             requestPermissions(arrayOf(Manifest.permission.CAMERA,Manifest.permission.ACCESS_FINE_LOCATION),101)
         }
